@@ -3,7 +3,6 @@ import torch
 import os
 import time
 from tqdm import tqdm
-from torch.utils.data import DataLoader
 from torchvision import datasets, models
 from torchvision.models import EfficientNet_V2_S_Weights
 

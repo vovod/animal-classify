@@ -1,9 +1,6 @@
 import torch
 from torchvision import models
-from PIL import Image
-import torch.nn as nn
-from torchvision import transforms
-import os
+
 import matplotlib.pyplot as plt
 import numpy as np
 from torchvision import datasets
