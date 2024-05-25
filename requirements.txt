@@ -1,0 +1,5 @@
+tqdm
+pytorch 
+torchvision 
+torchaudio 
+pytorch-cuda==12.1
