@@ -14,8 +14,8 @@ def train_model():
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     print(f"Using device: {device}")
 
-    if not os.path.exists('weights_3/'):
-        os.makedirs('weights_3/')
+    if not os.path.exists('weights/'):
+        os.makedirs('weights/')
 
     dataset_dir = "E:\\animal-classify\\animals\\animals"
 

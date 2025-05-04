@@ -1,5 +1,5 @@
 tqdm
-pytorch 
-torchvision 
-torchaudio 
+pytorch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
 pytorch-cuda==12.1
