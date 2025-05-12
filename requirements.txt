@@ -1,5 +1,20 @@
-tqdm
-pytorch==2.3.0
+# Core PyTorch - CPU version
+torch==2.3.0
 torchvision==0.18.0
 torchaudio==2.3.0
-pytorch-cuda==12.1
+
+# Computer Vision and Image Processing
+opencv-python==4.9.0.80
+Pillow==10.0.0
+
+# GUI
+tkinter # Usually comes with Python by default
+
+# Progress bars
+tqdm==4.66.1
+
+# JSON handling (built-in with Python)
+# json
+
+# Other utilities
+numpy==1.24.3

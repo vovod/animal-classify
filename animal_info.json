@@ -1,0 +1,1262 @@
+{
+  "antelope": {
+    "name_vi": "Linh dương",
+    "classification": "Động vật có vú, họ Bovidae",
+    "habitat": "Đồng cỏ, sa mạc, vùng thảo nguyên",
+    "diet": "Ăn cỏ (động vật ăn cỏ)",
+    "size": "1.2-2m chiều dài",
+    "weight": "25-250kg",
+    "interesting_facts": [
+      "Có thể chạy với tốc độ lên đến 80 km/h",
+      "Có thị giác và thính giác rất nhạy bén",
+      "Sống theo đàn để tự bảo vệ"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "badger": {
+    "name_vi": "Lửng",
+    "classification": "Động vật có vú, họ Mustelidae",
+    "habitat": "Rừng, đồng cỏ, vùng núi",
+    "diet": "Ăn tạp (côn trùng, giun, quả)",
+    "size": "60-90cm chiều dài",
+    "weight": "4-15kg",
+    "interesting_facts": [
+      "Có móng vuốt mạnh để đào hang",
+      "Dùng hang để ngủ và nuôi con",
+      "Có thể chạy ngược với tốc độ nhanh"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "bat": {
+    "name_vi": "Dơi",
+    "classification": "Động vật có vú, bộ Chiroptera",
+    "habitat": "Hang động, gầm cầu, tòa nhà cũ",
+    "diet": "Côn trùng, quả, mật hoa",
+    "size": "3-180cm sải cánh",
+    "weight": "2g-1.5kg",
+    "interesting_facts": [
+      "Động vật có vú duy nhất có thể bay",
+      "Dùng sóng siêu âm để định vị",
+      "Thụ phấn cho nhiều loài thực vật quan trọng"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "bear": {
+    "name_vi": "Gấu",
+    "classification": "Động vật có vú, họ Ursidae",
+    "habitat": "Rừng, tundra, vùng núi",
+    "diet": "Ăn tạp (cá, quả, thịt, mật)",
+    "size": "1-3m chiều dài",
+    "weight": "25-800kg",
+    "interesting_facts": [
+      "Có thể ngủ đông từ 5-7 tháng",
+      "Khứu giác nhạy hơn chó 7 lần",
+      "Có thể chạy với tốc độ 50 km/h"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "bee": {
+    "name_vi": "Ong",
+    "classification": "Côn trùng, họ Apidae",
+    "habitat": "Hoa, tổ ong, rừng",
+    "diet": "Mật hoa, phấn hoa",
+    "size": "4-40mm",
+    "weight": "0.1-0.7g",
+    "interesting_facts": [
+      "Cần thiết cho việc thụ phấn cây trồng",
+      "Giao tiếp bằng vũ điệu '8' để chỉ vị trí hoa",
+      "Sản xuất mật ong và sáp ong"
+    ],
+    "conservation_status": "Đang suy giảm"
+  },
+  "beetle": {
+    "name_vi": "Bọ cánh cứng",
+    "classification": "Côn trùng, bộ Coleoptera",
+    "habitat": "Khắp nơi - nước, đất, cây",
+    "diet": "Lá, gỗ, thịt thối, phấn hoa",
+    "size": "0.3-160mm",
+    "weight": "0.1mg-100g",
+    "interesting_facts": [
+      "Là nhóm động vật đa dạng nhất trên Trái Đất",
+      "Có hơn 350,000 loài đã biết",
+      "Một số loài có thể nâng vật nặng gấp 850 lần cân nặng cơ thể"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "bison": {
+    "name_vi": "Bò rừng",
+    "classification": "Động vật có vú, họ Bovidae",
+    "habitat": "Đồng cỏ, thảo nguyên",
+    "diet": "Ăn cỏ",
+    "size": "2-3.5m chiều dài",
+    "weight": "300-1,000kg",
+    "interesting_facts": [
+      "Từng có hàng triệu con ở Bắc Mỹ",
+      "Có thể nhảy cao 1.8m",
+      "Sống theo đàn lớn"
+    ],
+    "conservation_status": "Gần nguy cấp"
+  },
+  "boar": {
+    "name_vi": "Lợn rừng",
+    "classification": "Động vật có vú, họ Suidae",
+    "habitat": "Rừng, vùng núi",
+    "diet": "Ăn tạp (rễ, quả, côn trùng)",
+    "size": "90-180cm chiều dài",
+    "weight": "50-200kg",
+    "interesting_facts": [
+      "Là tổ tiên của lợn nhà",
+      "Có khứu giác rất phát triển",
+      "Sống theo nhóm với cấu trúc xã hội phức tạp"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "butterfly": {
+    "name_vi": "Bướm",
+    "classification": "Côn trùng, bộ Lepidoptera",
+    "habitat": "Vườn hoa, rừng, đồng cỏ",
+    "diet": "Mật hoa, khoáng chất từ đất",
+    "size": "3-280mm sải cánh",
+    "weight": "0.003-3g",
+    "interesting_facts": [
+      "Có quá trình biến thái hoàn toàn",
+      "Cánh có màu từ vảy màu nhỏ li ti",
+      "Một số loài di cư hàng nghìn km"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "cat": {
+    "name_vi": "Mèo",
+    "classification": "Động vật có vú, họ Felidae",
+    "habitat": "Toàn cầu (được thuần hóa)",
+    "diet": "Ăn thịt (chủ yếu chuột, chim)",
+    "size": "46cm chiều dài cơ thể",
+    "weight": "2.5-7kg",
+    "interesting_facts": [
+      "Có 5 ngón tay trước và 4 ngón sau",
+      "Ngủ 13-16 tiếng mỗi ngày",
+      "Có thể phát ra 100 âm thanh khác nhau"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "caterpillar": {
+    "name_vi": "Sâu bướm",
+    "classification": "Côn trùng, bộ Lepidoptera (ấu trùng)",
+    "habitat": "Lá cây, thân cây",
+    "diet": "Lá cây chủ",
+    "size": "5-100mm",
+    "weight": "0.01-30g",
+    "interesting_facts": [
+      "Có thể tăng cân nặng 3,000 lần trong vài tuần",
+      "Lột da 4-5 lần trong quá trình phát triển",
+      "Sẽ biến thành bướm hoặc ngài qua quá trình nhộng"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "chimpanzee": {
+    "name_vi": "Tinh tinh",
+    "classification": "Động vật có vú, họ Hominidae",
+    "habitat": "Rừng nhiệt đới châu Phi",
+    "diet": "Ăn tạp (quả, lá, thịt)",
+    "size": "70-130cm chiều cao",
+    "weight": "29-70kg",
+    "interesting_facts": [
+      "DNA giống con người 98.8%",
+      "Sử dụng công cụ và truyền lại kiến thức",
+      "Sống theo nhóm với cấu trúc xã hội phức tạp"
+    ],
+    "conservation_status": "Cực kỳ nguy cấp"
+  },
+  "cockroach": {
+    "name_vi": "Gián",
+    "classification": "Côn trùng, bộ Blattodea",
+    "habitat": "Nhà cửa, rừng, hang động",
+    "diet": "Ăn tạp (thức ăn thừa, gỗ thối)",
+    "size": "6-100mm",
+    "weight": "0.01-35g",
+    "interesting_facts": [
+      "Có thể sống 1 tuần không đầu",
+      "Có thể chạy 5 km/h",
+      "Sống được 100 triệu năm"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "cow": {
+    "name_vi": "Bò",
+    "classification": "Động vật có vú, họ Bovidae",
+    "habitat": "Trang trại, đồng cỏ",
+    "diet": "Ăn cỏ",
+    "size": "2-3m chiều dài",
+    "weight": "400-700kg",
+    "interesting_facts": [
+      "Có 4 buồng dạ dày để tiêu hóa cỏ",
+      "Sản xuất sữa và thịt cho con người",
+      "Có thể nhớ mặt đến 50 cá thể khác"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "coyote": {
+    "name_vi": "Sói đồng cỏ",
+    "classification": "Động vật có vú, họ Canidae",
+    "habitat": "Thảo nguyên, sa mạc, rừng",
+    "diet": "Ăn tạp (gặm nhấm, chim, quả)",
+    "size": "75-87cm chiều dài cơ thể",
+    "weight": "7-21kg",
+    "interesting_facts": [
+      "Rất thông minh và thích ứng",
+      "Có thể lai với chó để tạo ra 'coydogs'",
+      "Giao tiếp bằng nhiều âm thanh khác nhau"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "crab": {
+    "name_vi": "Cua",
+    "classification": "Động vật giáp xác, họ Brachyura",
+    "habitat": "Biển, sông, hồ, hang đất",
+    "diet": "Ăn tạp (cá, tảo, động vật chết)",
+    "size": "5-400mm chiều rộng",
+    "weight": "1g-4kg",
+    "interesting_facts": [
+      "Có thể bơi lùi hoặc di chuyển ngang",
+      "Có khả năng tái sinh chân bị mất",
+      "Một số loài sống cả đời trên cạn"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "crow": {
+    "name_vi": "Quạ",
+    "classification": "Chim, họ Corvidae",
+    "habitat": "Khắp nơi trừ Nam Cực",
+    "diet": "Ăn tạp (côn trùng, thịt, hạt)",
+    "size": "33-69cm",
+    "weight": "79-1,625g",
+    "interesting_facts": [
+      "Là loài chim thông minh nhất",
+      "Có thể sử dụng công cụ",
+      "Nhớ được khuôn mặt người"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "deer": {
+    "name_vi": "Hươu",
+    "classification": "Động vật có vú, họ Cervidae",
+    "habitat": "Rừng, đồng cỏ, tundra",
+    "diet": "Ăn cỏ (lá, nhánh, quả)",
+    "size": "0.6-2.1m chiều cao",
+    "weight": "7-318kg",
+    "interesting_facts": [
+      "Hươu đực có gạc rụng hàng năm",
+      "Có thể nhảy cao 3m",
+      "Chạy với tốc độ lên đến 80 km/h"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "dog": {
+    "name_vi": "Chó",
+    "classification": "Động vật có vú, họ Canidae",
+    "habitat": "Toàn cầu (được thuần hóa)",
+    "diet": "Ăn tạp (thịt, cỏ, quả)",
+    "size": "6-111cm chiều cao",
+    "weight": "0.5-70kg",
+    "interesting_facts": [
+      "Được thuần hóa từ 15,000 năm trước",
+      "Có thể ngửi được 1 triệu lần tốt hơn người",
+      "Hiểu được 165 từ"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "dolphin": {
+    "name_vi": "Cá heo",
+    "classification": "Động vật có vú, họ Delphinidae",
+    "habitat": "Đại dương, biển, sông",
+    "diet": "Ăn thịt (cá, mực)",
+    "size": "1.2-4m",
+    "weight": "40-300kg",
+    "interesting_facts": [
+      "Dùng sóng âm để định vị",
+      "Có khả năng nhận thức bản thân",
+      "Bơi với tốc độ lên đến 60 km/h"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "donkey": {
+    "name_vi": "Lừa",
+    "classification": "Động vật có vú, họ Equidae",
+    "habitat": "Sa mạc, vùng khô (được thuần hóa)",
+    "diet": "Ăn cỏ",
+    "size": "90-140cm chiều cao",
+    "weight": "80-480kg",
+    "interesting_facts": [
+      "Rất bướng bỉnh nhưng thông minh",
+      "Có tai dài đặc trưng",
+      "Lai giữa ngựa và lừa tạo ra la"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "dragonfly": {
+    "name_vi": "Chuồn chuồn",
+    "classification": "Côn trùng, bộ Odonata",
+    "habitat": "Gần nước ngọt",
+    "diet": "Ăn thịt (muỗi, ruồi)",
+    "size": "15-162mm sải cánh",
+    "weight": "0.003-8.5g",
+    "interesting_facts": [
+      "Mắt kép lớn nhất trong côn trùng",
+      "Có thể bay với 4 cánh độc lập",
+      "Bay ngược, dừng giữa không trung"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "duck": {
+    "name_vi": "Vịt",
+    "classification": "Chim, họ Anatidae",
+    "habitat": "Hồ, sông, đầm lầy",
+    "diet": "Ăn tạp (thực vật, côn trùng)",
+    "size": "30-100cm",
+    "weight": "0.2-7kg",
+    "interesting_facts": [
+      "Có màng bơi giữa các ngón",
+      "Lông không thấm nước",
+      "Có thể ngủ với một mắt mở"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "eagle": {
+    "name_vi": "Đại bàng",
+    "classification": "Chim, họ Accipitridae",
+    "habitat": "Núi, rừng, sa mạc",
+    "diet": "Ăn thịt (cá, chuột, rắn)",
+    "size": "40-102cm",
+    "weight": "0.5-6.7kg",
+    "interesting_facts": [
+      "Thị lực gấp 8 lần con người",
+      "Có thể lặn với tốc độ 160 km/h",
+      "Một số loài sống đến 30 năm"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "elephant": {
+    "name_vi": "Voi",
+    "classification": "Động vật có vú, họ Elephantidae",
+    "habitat": "Rừng nhiệt đới, đồng cỏ",
+    "diet": "Ăn cỏ (lá, cỏ, quả)",
+    "size": "4-7m chiều dài, 2.5-4m chiều cao",
+    "weight": "4,000-7,000kg",
+    "interesting_facts": [
+      "Là động vật trên cạn lớn nhất hiện tại",
+      "Có trí nhớ rất tốt và khả năng cảm thông cao",
+      "Giao tiếp bằng sóng hạ âm"
+    ],
+    "conservation_status": "Có nguy cơ tuyệt chủng"
+  },
+  "flamingo": {
+    "name_vi": "Hồng hạt",
+    "classification": "Chim, họ Phoenicopteridae",
+    "habitat": "Hồ muối, vùng ngập mặn",
+    "diet": "Tảo, giáp xác, tôm",
+    "size": "90-150cm",
+    "weight": "1.2-4kg",
+    "interesting_facts": [
+      "Màu hồng từ thực phẩm chứa carotenoid",
+      "Ngủ đứng trên một chân",
+      "Có thể sống đến 83 năm"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "fly": {
+    "name_vi": "Ruồi",
+    "classification": "Côn trùng, bộ Diptera",
+    "habitat": "Khắp nơi trên Trái Đất",
+    "diet": "Ăn tạp (thức ăn thối, đường)",
+    "size": "1-60mm",
+    "weight": "0.1mg-20g",
+    "interesting_facts": [
+      "Có tốc độ phản xạ rất nhanh",
+      "Chỉ có 2 cánh (khác với côn trùng khác)",
+      "Có thể mang mầm bệnh"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "fox": {
+    "name_vi": "Cáo",
+    "classification": "Động vật có vú, họ Canidae",
+    "habitat": "Rừng, đồng cỏ, sa mạc",
+    "diet": "Ăn tạp (chuột, chim, quả)",
+    "size": "35-75cm chiều dài cơ thể",
+    "weight": "1.5-11kg",
+    "interesting_facts": [
+      "Rất thông minh và xảo quyệt",
+      "Có thính giác cực kỳ nhạy",
+      "Đuôi dài giúp giữ cân bằng"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "goat": {
+    "name_vi": "Dê",
+    "classification": "Động vật có vú, họ Bovidae",
+    "habitat": "Núi, đồng cỏ, sa mạc",
+    "diet": "Ăn cỏ",
+    "size": "1.3-1.7m chiều dài",
+    "weight": "20-140kg",
+    "interesting_facts": [
+      "Có thể leo dốc gần vuông góc",
+      "Mắt chữ nhật giúp nhìn 360 độ",
+      "Được thuần hóa từ 8,000 năm"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "goldfish": {
+    "name_vi": "Cá vàng",
+    "classification": "Cá, họ Cyprinidae",
+    "habitat": "Nước ngọt (được thuần hóa)",
+    "diet": "Ăn tạp (tảo, côn trùng, thức ăn cá)",
+    "size": "5-40cm",
+    "weight": "10g-4kg",
+    "interesting_facts": [
+      "Có thể học được thói quen ăn",
+      "Trí nhớ không chỉ 3 giây",
+      "Có thể sống đến 40 năm"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "goose": {
+    "name_vi": "Ngỗng",
+    "classification": "Chim, họ Anatidae",
+    "habitat": "Hồ, đầm lầy, cánh đồng",
+    "diet": "Ăn cỏ",
+    "size": "60-120cm",
+    "weight": "1.5-10kg",
+    "interesting_facts": [
+      "Bay theo hình chữ V để tiết kiệm năng lượng",
+      "Rất trung thành với bạn đời",
+      "Có thể sống đến 25 năm"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "gorilla": {
+    "name_vi": "Đười ươi",
+    "classification": "Động vật có vú, họ Hominidae",
+    "habitat": "Rừng nhiệt đới châu Phi",
+    "diet": "Ăn cỏ (chủ yếu lá, quả)",
+    "size": "1.4-1.8m chiều cao",
+    "weight": "70-270kg",
+    "interesting_facts": [
+      "Là linh trưởng lớn nhất",
+      "Có thể học ngôn ngữ ký hiệu",
+      "Sống theo nhóm với đực đầu"
+    ],
+    "conservation_status": "Cực kỳ nguy cấp"
+  },
+  "grasshopper": {
+    "name_vi": "Châu chấu",
+    "classification": "Côn trùng, bộ Orthoptera",
+    "habitat": "Đồng cỏ, cánh đồng",
+    "diet": "Ăn cỏ",
+    "size": "1-11cm",
+    "weight": "0.01-3g",
+    "interesting_facts": [
+      "Có thể nhảy xa gấp 20 lần chiều dài cơ thể",
+      "Phát âm bằng cách xát chân sau",
+      "Một số loài có thể bay xa"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "hamster": {
+    "name_vi": "Chuột hamster",
+    "classification": "Động vật có vú, họ Cricetidae",
+    "habitat": "Sa mạc, đồng cỏ (được thuần hóa)",
+    "diet": "Ăn tạp (hạt, quả, côn trùng)",
+    "size": "5-34cm",
+    "weight": "0.3-600g",
+    "interesting_facts": [
+      "Có túi má để tích trữ thức ăn",
+      "Chạy ngược trong bánh xe tập",
+      "Chu kỳ sinh sản ngắn"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "hare": {
+    "name_vi": "Thỏ rừng",
+    "classification": "Động vật có vú, họ Leporidae",
+    "habitat": "Đồng cỏ, rừng mỏng",
+    "diet": "Ăn cỏ",
+    "size": "40-76cm",
+    "weight": "1.5-5.5kg",
+    "interesting_facts": [
+      "Chạy nhanh hơn thỏ nhà",
+      "Có tai dài hơn thỏ nhà",
+      "Không làm hang mà ngủ trên mặt đất"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "hedgehog": {
+    "name_vi": "Nhím",
+    "classification": "Động vật có vú, họ Erinaceidae",
+    "habitat": "Rừng, vườn, thảo nguyên",
+    "diet": "Ăn tạp (côn trùng, giun)",
+    "size": "10-40cm",
+    "weight": "0.1-2kg",
+    "interesting_facts": [
+      "Có 5,000-7,000 gai nhọn",
+      "Cuộn tròn thành quả bóng khi bị đe dọa",
+      "Ngủ đông trong mùa lạnh"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "hippopotamus": {
+    "name_vi": "Hà mã",
+    "classification": "Động vật có vú, họ Hippopotamidae",
+    "habitat": "Sông, hồ ở châu Phi",
+    "diet": "Ăn cỏ",
+    "size": "3-5m chiều dài",
+    "weight": "1,500-4,000kg",
+    "interesting_facts": [
+      "Có thể nín thở dưới nước 5 phút",
+      "Chạy với tốc độ 50 km/h trên cạn",
+      "Tiết ra 'kem chống nắng' tự nhiên"
+    ],
+    "conservation_status": "Dễ bị tổn thương"
+  },
+  "hornbill": {
+    "name_vi": "Niệc",
+    "classification": "Chim, họ Bucerotidae",
+    "habitat": "Rừng nhiệt đới",
+    "diet": "Ăn tạp (quả, côn trùng)",
+    "size": "30-130cm",
+    "weight": "0.2-4kg",
+    "interesting_facts": [
+      "Có mào chim đặc trưng",
+      "Làm tổ trong lỗ cây",
+      "Cái bị 'phong tỏa' khi ấp trứng"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "horse": {
+    "name_vi": "Ngựa",
+    "classification": "Động vật có vú, họ Equidae",
+    "habitat": "Đồng cỏ (được thuần hóa)",
+    "diet": "Ăn cỏ",
+    "size": "1.4-1.8m chiều cao",
+    "weight": "380-1,000kg",
+    "interesting_facts": [
+      "Có thể chạy 88 km/h",
+      "Ngủ được khi đứng",
+      "Mắt lớn nhất trong động vật có vú"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "hummingbird": {
+    "name_vi": "Chim ruồi",
+    "classification": "Chim, họ Trochilidae",
+    "habitat": "Châu Mỹ",
+    "diet": "Mật hoa, côn trùng nhỏ",
+    "size": "5-24cm",
+    "weight": "2-24g",
+    "interesting_facts": [
+      "Đập cánh 80 lần/giây",
+      "Là chim duy nhất bay lùi",
+      "Có thể bay trên chỗ như trực thăng"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "hyena": {
+    "name_vi": "Linh cẩu",
+    "classification": "Động vật có vú, họ Hyaenidae",
+    "habitat": "Thảo nguyên, sa mạc châu Phi",
+    "diet": "Ăn thịt (săn và ăn xác)",
+    "size": "95-190cm chiều dài",
+    "weight": "40-86kg",
+    "interesting_facts": [
+      "Có tiếng cười đặc trưng",
+      "Hàm khỏe để nghiền xương",
+      "Sống theo bầy do cái đầu đàn"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "jellyfish": {
+    "name_vi": "Sứa",
+    "classification": "Động vật cnidaria",
+    "habitat": "Đại dương, biển",
+    "diet": "Plankton, cá nhỏ",
+    "size": "0.5mm-2m đường kính",
+    "weight": "1mg-200kg",
+    "interesting_facts": [
+      "Không có não hay trái tim",
+      "95% cơ thể là nước",
+      "Sống được 500 triệu năm"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "kangaroo": {
+    "name_vi": "Chuột túi",
+    "classification": "Động vật có vú, có túi",
+    "habitat": "Úc, New Guinea",
+    "diet": "Ăn cỏ",
+    "size": "0.6-1.6m chiều cao",
+    "weight": "0.5-85kg",
+    "interesting_facts": [
+      "Nhảy với tốc độ 60 km/h",
+      "Không thể đi lùi",
+      "Con được nuôi trong túi"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "koala": {
+    "name_vi": "Koala",
+    "classification": "Động vật có vú, có túi",
+    "habitat": "Rừng eucalyptus Úc",
+    "diet": "Lá eucalyptus",
+    "size": "60-85cm",
+    "weight": "4-15kg",
+    "interesting_facts": [
+      "Ngủ 18-22 tiếng/ngày",
+      "Chỉ ăn lá eucalyptus",
+      "Có dấu vân tay giống người"
+    ],
+    "conservation_status": "Dễ bị tổn thương"
+  },
+  "ladybugs": {
+    "name_vi": "Bọ rùa",
+    "classification": "Côn trùng, họ Coccinellidae",
+    "habitat": "Vườn, cánh đồng",
+    "diet": "Rệp cây",
+    "size": "1-10mm",
+    "weight": "1-5mg",
+    "interesting_facts": [
+      "Ăn đến 5,000 con rệp/ngày",
+      "Có thể giả chết khi bị đe dọa",
+      "Được coi là may mắn"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "leopard": {
+    "name_vi": "Báo hoa mai",
+    "classification": "Động vật có vú, họ Felidae",
+    "habitat": "Rừng, sa mạc, núi",
+    "diet": "Ăn thịt",
+    "size": "70-190cm chiều dài cơ thể",
+    "weight": "20-90kg",
+    "interesting_facts": [
+      "Leo cây rất giỏi",
+      "Có thể mang mồi nặng gấp đôi lên cây",
+      "Săn đêm một mình"
+    ],
+    "conservation_status": "Gần nguy cấp"
+  },
+  "lion": {
+    "name_vi": "Sư tử",
+    "classification": "Động vật có vú, họ Felidae",
+    "habitat": "Đồng cỏ, thảo nguyên",
+    "diet": "Ăn thịt (săn động vật có vú lớn)",
+    "size": "1.7-2.5m chiều dài",
+    "weight": "150-250kg",
+    "interesting_facts": [
+      "Được gọi là 'Vua của loài thú'",
+      "Sư tử đực có bờm dài và đặc trưng",
+      "Sống theo bầy đàn có tổ chức"
+    ],
+    "conservation_status": "Dễ bị tổn thương"
+  },
+  "lizard": {
+    "name_vi": "Thằn lằn",
+    "classification": "Bò sát, bộ Squamata",
+    "habitat": "Sa mạc, rừng, đá",
+    "diet": "Ăn tạp (côn trùng, thực vật)",
+    "size": "1.6cm-3m",
+    "weight": "0.1g-70kg",
+    "interesting_facts": [
+      "Có thể tái sinh đuôi",
+      "Một số loài thay đổi màu",
+      "Hơn 6,000 loài"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "lobster": {
+    "name_vi": "Tôm hùm",
+    "classification": "Động vật giáp xác, họ Nephropidae",
+    "habitat": "Biển, đá ngầm",
+    "diet": "Ăn tạp (thực vật, động vật chết)",
+    "size": "8-64cm",
+    "weight": "0.4-20kg",
+    "interesting_facts": [
+      "Có thể sống đến 100 năm",
+      "Máu màu xanh",
+      "Tái sinh được chân bị mất"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "mosquito": {
+    "name_vi": "Muỗi",
+    "classification": "Côn trùng, họ Culicidae",
+    "habitat": "Gần nước đọng",
+    "diet": "Máu (cái), mật hoa (đực)",
+    "size": "3-6mm",
+    "weight": "0.2-10mg",
+    "interesting_facts": [
+      "Chỉ cái mút máu",
+      "Có thể tìm thấy con mồi từ xa 50m",
+      "Truyền nhiều bệnh nguy hiểm"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "moth": {
+    "name_vi": "Ngài",
+    "classification": "Côn trùng, bộ Lepidoptera",
+    "habitat": "Khắp nơi",
+    "diet": "Mật hoa, lá cây",
+    "size": "4-280mm sải cánh",
+    "weight": "0.003-7g",
+    "interesting_facts": [
+      "Hoạt động chủ yếu về đêm",
+      "Một số loài không có miệng",
+      "Có thể ngụy trang rất tốt"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "mouse": {
+    "name_vi": "Chuột",
+    "classification": "Động vật có vú, họ Muridae",
+    "habitat": "Khắp nơi",
+    "diet": "Ăn tạp (hạt, quả, côn trùng)",
+    "size": "3-20cm",
+    "weight": "12-100g",
+    "interesting_facts": [
+      "Có khả năng sinh sản rất cao",
+      "Tim đập 632 lần/phút",
+      "Có thể chui qua lỗ nhỏ bằng đồng xu"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "octopus": {
+    "name_vi": "Bạch tuộc",
+    "classification": "Động vật thân mềm, lớp Cephalopoda",
+    "habitat": "Đại dương, biển",
+    "diet": "Ăn thịt (cua, cá, tôm)",
+    "size": "1cm-9m sải tay",
+    "weight": "1g-600kg",
+    "interesting_facts": [
+      "Có 8 tay và 3 tim",
+      "Thay đổi màu sắc và hình dạng",
+      "Cực kỳ thông minh, biết sử dụng công cụ"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "okapi": {
+    "name_vi": "Okapi",
+    "classification": "Động vật có vú, họ Giraffidae",
+    "habitat": "Rừng nhiệt đới Congo",
+    "diet": "Ăn cỏ (lá cây)",
+    "size": "2.5m chiều dài",
+    "weight": "200-350kg",
+    "interesting_facts": [
+      "Là họ hàng gần nhất của hươu cao cổ",
+      "Đuôi dài có vằn như ngựa vằn",
+      "Lưỡi dài 18 inch có thể liếm tai"
+    ],
+    "conservation_status": "Cực kỳ nguy cấp"
+  },
+  "orangutan": {
+    "name_vi": "Đười ươi đỏ",
+    "classification": "Động vật có vú, họ Hominidae",
+    "habitat": "Rừng nhiệt đới Borneo và Sumatra",
+    "diet": "Ăn tạp (chủ yếu quả)",
+    "size": "1.2-1.5m chiều cao",
+    "weight": "30-90kg",
+    "interesting_facts": [
+      "Sống chủ yếu trên cây",
+      "Có khả năng sử dụng công cụ tự nhiên",
+      "Chia sẻ 97% DNA với con người"
+    ],
+    "conservation_status": "Cực kỳ nguy cấp"
+  },
+  "otter": {
+    "name_vi": "Rái cá",
+    "classification": "Động vật có vú, họ Mustelidae",
+    "habitat": "Sông, hồ, biển",
+    "diet": "Ăn thịt (cá, ếch, cua)",
+    "size": "0.6-1.8m",
+    "weight": "1-45kg",
+    "interesting_facts": [
+      "Bơi rất giỏi với 4 chân có màng",
+      "Sử dụng đá để đập vỡ vỏ sò",
+      "Có bộ lông dày nhất trong động vật"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "owl": {
+    "name_vi": "Cú",
+    "classification": "Chim, bộ Strigiformes",
+    "habitat": "Rừng, sa mạc, thảo nguyên",
+    "diet": "Ăn thịt (chuột, chim nhỏ)",
+    "size": "13-73cm",
+    "weight": "0.04-4.5kg",
+    "interesting_facts": [
+      "Có thể xoay đầu 270 độ",
+      "Bay hoàn toàn không tiếng",
+      "Thị giác và thính giác cực tốt trong đêm"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "ox": {
+    "name_vi": "Bò đực",
+    "classification": "Động vật có vú, họ Bovidae",
+    "habitat": "Trang trại, đồng cỏ",
+    "diet": "Ăn cỏ",
+    "size": "2-3m chiều dài",
+    "weight": "500-1,000kg",
+    "interesting_facts": [
+      "Được dùng để cày ruộng hàng ngàn năm",
+      "Rất mạnh và bền bỉ",
+      "Có thể kéo gấp 1.5 lần cân nặng"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "oyster": {
+    "name_vi": "Hàu",
+    "classification": "Động vật thân mềm, lớp Bivalvia",
+    "habitat": "Biển, vùng triều",
+    "diet": "Plankton, mảnh hữu cơ",
+    "size": "5-35cm",
+    "weight": "30g-5kg",
+    "interesting_facts": [
+      "Lọc nước biển để kiếm ăn",
+      "Có thể sản xuất ngọc trai",
+      "Thay đổi giới tính trong đời"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "panda": {
+    "name_vi": "Gấu trúc",
+    "classification": "Động vật có vú, họ Ursidae",
+    "habitat": "Rừng tre Trung Quốc",
+    "diet": "Ăn cỏ (chủ yếu tre)",
+    "size": "1.2-1.9m",
+    "weight": "80-125kg",
+    "interesting_facts": [
+      "99% chế độ ăn là tre",
+      "Có 'ngón cái giả' để cầm tre",
+      "Biểu tượng bảo tồn động vật"
+    ],
+    "conservation_status": "Dễ bị tổn thương"
+  },
+  "parrot": {
+    "name_vi": "Vẹt",
+    "classification": "Chim, bộ Psittaciformes",
+    "habitat": "Rừng nhiệt đới",
+    "diet": "Hạt, quả, mật hoa",
+    "size": "7-100cm",
+    "weight": "0.006-4kg",
+    "interesting_facts": [
+      "Có thể học nói tiếng người",
+      "Sống rất lâu, có thể đến 80 năm",
+      "Có bàn chân zygodactyl (2 ngón trước, 2 ngón sau)"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "pelecaniformes": {
+    "name_vi": "Bộ Cò",
+    "classification": "Chim, bộ Pelecaniformes",
+    "habitat": "Nước ngọt và nước mặn",
+    "diet": "Cá, động vật nước",
+    "size": "30-180cm",
+    "weight": "0.06-15kg",
+    "interesting_facts": [
+      "Có túi cổ họng để chứa cá",
+      "Bay theo hình V để tiết kiệm năng lượng",
+      "Lặn từ độ cao để bắt cá"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "penguin": {
+    "name_vi": "Chim cánh cụt",
+    "classification": "Chim, họ Spheniscidae",
+    "habitat": "Nam Cực, vùng lạnh",
+    "diet": "Cá, tôm, mực",
+    "size": "30-120cm",
+    "weight": "1-40kg",
+    "interesting_facts": [
+      "Không thể bay nhưng bơi rất giỏi",
+      "Sống theo đàn lớn",
+      "Đực ấp trứng trong mùa đông lạnh"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "pig": {
+    "name_vi": "Lợn",
+    "classification": "Động vật có vú, họ Suidae",
+    "habitat": "Trang trại (được thuần hóa)",
+    "diet": "Ăn tạp",
+    "size": "0.9-1.8m",
+    "weight": "50-350kg",
+    "interesting_facts": [
+      "Thông minh hơn chó và một số linh trưởng",
+      "Có khứu giác gấp 2000 lần con người",
+      "Không thể tiết mồ hôi"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "pigeon": {
+    "name_vi": "Chim bồ câu",
+    "classification": "Chim, họ Columbidae",
+    "habitat": "Thành phố, rừng",
+    "diet": "Hạt, quả, thức ăn thừa",
+    "size": "15-75cm",
+    "weight": "0.03-4kg",
+    "interesting_facts": [
+      "Có khả năng định hướng tuyệt vời",
+      "Được dùng để truyền tin trong chiến tranh",
+      "Có thể nhận ra mình trong gương"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "porcupine": {
+    "name_vi": "Nhím gai",
+    "classification": "Động vật có vú, họ Erethizontidae",
+    "habitat": "Rừng, sa mạc",
+    "diet": "Ăn cỏ (vỏ cây, lá)",
+    "size": "25-112cm",
+    "weight": "0.4-30kg",
+    "interesting_facts": [
+      "Có đến 30,000 gai nhọn",
+      "Gai có chất độc tự nhiên",
+      "Có thể bơi tốt"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "possum": {
+    "name_vi": "Possum",
+    "classification": "Động vật có vú, có túi",
+    "habitat": "Rừng, khu vực thành phố",
+    "diet": "Ăn tạp",
+    "size": "6.4-100cm",
+    "weight": "0.01-14kg",
+    "interesting_facts": [
+      "Có thể giả chết khi gặp nguy hiểm",
+      "Đuôi có thể cầm nắm",
+      "Miễn dịch với nhiều loại nọc độc"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "raccoon": {
+    "name_vi": "Mèo rửa mặt",
+    "classification": "Động vật có vú, họ Procyonidae",
+    "habitat": "Rừng, đô thị",
+    "diet": "Ăn tạp",
+    "size": "60-95cm",
+    "weight": "2-26kg",
+    "interesting_facts": [
+      "Có bàn tay rất khéo léo",
+      "Rửa thức ăn trước khi ăn",
+      "Hoạt động chủ yếu ban đêm"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "rat": {
+    "name_vi": "Chuột cống",
+    "classification": "Động vật có vú, họ Muridae",
+    "habitat": "Khắp nơi",
+    "diet": "Ăn tạp",
+    "size": "9-48cm",
+    "weight": "40-500g",
+    "interesting_facts": [
+      "Rất thông minh, có thể học tên của mình",
+      "Có khả năng cảm thông với đồng loại",
+      "Sinh sản rất nhanh"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "reindeer": {
+    "name_vi": "Tuần lộc",
+    "classification": "Động vật có vú, họ Cervidae",
+    "habitat": "Tundra Bắc Cực",
+    "diet": "Ăn cỏ (rêu, cỏ)",
+    "size": "1.6-2.2m",
+    "weight": "60-380kg",
+    "interesting_facts": [
+      "Cả đực và cái đều có gạc",
+      "Di cư hàng nghìn km mỗi năm",
+      "Được thuần hóa ở một số nước Bắc Âu"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "rhinoceros": {
+    "name_vi": "Tê giác",
+    "classification": "Động vật có vú, họ Rhinocerotidae",
+    "habitat": "Đồng cỏ, rừng châu Phi và châu Á",
+    "diet": "Ăn cỏ",
+    "size": "2-5m",
+    "weight": "800-3,500kg",
+    "interesting_facts": [
+      "Có 1 hoặc 2 sừng làm từ keratin",
+      "Thị giác kém nhưng khứu giác và thính giác tốt",
+      "Có thể chạy 50 km/h"
+    ],
+    "conservation_status": "Cực kỳ nguy cấp"
+  },
+  "sandpiper": {
+    "name_vi": "Choi choi",
+    "classification": "Chim, họ Scolopacidae",
+    "habitat": "Bờ biển, đầm lầy",
+    "diet": "Các sinh vật nhỏ trong cát",
+    "size": "11-66cm",
+    "weight": "0.009-1.4kg",
+    "interesting_facts": [
+      "Có mỏ nhạy cảm để tìm thức ăn",
+      "Di cư đường dài giữa các lục địa",
+      "Chạy dọc bờ biển để tránh sóng"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "seahorse": {
+    "name_vi": "Cá ngựa",
+    "classification": "Cá, họ Syngnathidae",
+    "habitat": "Nước ấm, rạn san hô",
+    "diet": "Mysis tôm nhỏ",
+    "size": "1.6-35.5cm",
+    "weight": "1-11g",
+    "interesting_facts": [
+      "Đực mang thai thay vì cái",
+      "Có đuôi quấn để bám",
+      "Thay đổi màu để ngụy trang"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "seal": {
+    "name_vi": "Hải cẩu",
+    "classification": "Động vật có vú, bộ Pinnipedia",
+    "habitat": "Biển, bờ biển",
+    "diet": "Cá, mực, tôm",
+    "size": "1.2-6m",
+    "weight": "25-4,000kg",
+    "interesting_facts": [
+      "Có thể nín thở dưới nước lên đến 2 giờ",
+      "Sử dụng ria mép để cảm nhận",
+      "Có thể ngủ dưới nước"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "shark": {
+    "name_vi": "Cá mập",
+    "classification": "Cá sụn, lớp Chondrichthyes",
+    "habitat": "Đại dương toàn cầu",
+    "diet": "Cá, hải cẩu, rùa biển",
+    "size": "0.17-18m",
+    "weight": "0.009-2,268kg",
+    "interesting_facts": [
+      "Có thể cảm nhận điện từ",
+      "Răng rụng và mọc lại liên tục",
+      "Tồn tại hơn 400 triệu năm"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "sheep": {
+    "name_vi": "Cừu",
+    "classification": "Động vật có vú, họ Bovidae",
+    "habitat": "Đồng cỏ, núi (được thuần hóa)",
+    "diet": "Ăn cỏ",
+    "size": "1.2-1.8m",
+    "weight": "20-200kg",
+    "interesting_facts": [
+      "Có trí nhớ tốt, nhận ra 50 khuôn mặt",
+      "Lông được dùng làm len",
+      "Sống theo đàn với cấu trúc xã hội"
+    ],
+    "conservation_status": "Được thuần hóa"
+  },
+  "snake": {
+    "name_vi": "Rắn",
+    "classification": "Bò sát, bộ Squamata",
+    "habitat": "Khắp nơi trừ Nam Cực",
+    "diet": "Ăn thịt",
+    "size": "10cm-8.7m",
+    "weight": "1g-100kg",
+    "interesting_facts": [
+      "Không có chân nhưng di chuyển rất nhanh",
+      "Nuốt mồi nguyên con",
+      "Có thể cảm nhận rung động qua đất"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "sparrow": {
+    "name_vi": "Chim sẻ",
+    "classification": "Chim, họ Passeridae",
+    "habitat": "Đô thị, nông thôn",
+    "diet": "Hạt, côn trùng",
+    "size": "11-18cm",
+    "weight": "13-42g",
+    "interesting_facts": [
+      "Rất thích nghi với môi trường đô thị",
+      "Sống thành đàn",
+      "Có thể học tiếng kêu từ bố mẹ"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "squid": {
+    "name_vi": "Mực ống",
+    "classification": "Động vật thân mềm, lớp Cephalopoda",
+    "habitat": "Đại dương",
+    "diet": "Cá, tôm, mực nhỏ",
+    "size": "1cm-13m",
+    "weight": "1g-500kg",
+    "interesting_facts": [
+      "Có 10 xúc tu (tay)",
+      "Phun mực để trốn chạy",
+      "Một số loài phát sáng"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "squirrel": {
+    "name_vi": "Sóc",
+    "classification": "Động vật có vú, họ Sciuridae",
+    "habitat": "Rừng, công viên",
+    "diet": "Hạt, quả, côn trùng",
+    "size": "5-72cm",
+    "weight": "0.01-8kg",
+    "interesting_facts": [
+      "Có trí nhớ tốt để tìm lại thức ăn tích trữ",
+      "Đuôi xù giúp cân bằng khi nhảy",
+      "Có thể xoay mắt cá chân 180 độ"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "starfish": {
+    "name_vi": "Sao biển",
+    "classification": "Động vật gai, lớp Asteroidea",
+    "habitat": "Đại dương, bờ biển",
+    "diet": "Sò, ốc, cá chết",
+    "size": "0.5-65cm",
+    "weight": "0.01-5kg",
+    "interesting_facts": [
+      "Có thể tái sinh cánh bị mất",
+      "Đảo dạ dày ra ngoài để ăn",
+      "Không có máu hay não"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "swan": {
+    "name_vi": "Thiên nga",
+    "classification": "Chim, họ Anatidae",
+    "habitat": "Hồ, sông, đầm lầy",
+    "diet": "Thực vật thủy sinh, côn trùng",
+    "size": "90-180cm",
+    "weight": "3.4-15kg",
+    "interesting_facts": [
+      "Biểu tượng của sự thanh lịch",
+      "Trung thành với bạn đời suốt đời",
+      "Có thể sống đến 30 năm"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "tiger": {
+    "name_vi": "Hổ",
+    "classification": "Động vật có vú, họ Felidae",
+    "habitat": "Rừng nhiệt đới, rừng ôn đới",
+    "diet": "Ăn thịt (săn một mình)",
+    "size": "2.3-3.9m chiều dài",
+    "weight": "90-310kg",
+    "interesting_facts": [
+      "Là loài mèo lớn nhất thế giới",
+      "Có khả năng bơi lội tuyệt vời",
+      "Mỗi cá thể có vằn riêng biệt như vân tay người"
+    ],
+    "conservation_status": "Có nguy cơ tuyệt chủng"
+  },
+  "turkey": {
+    "name_vi": "Gà tây",
+    "classification": "Chim, họ Phasianidae",
+    "habitat": "Rừng, thảo nguyên",
+    "diet": "Ăn tạp (hạt, quả, côn trùng)",
+    "size": "100-110cm",
+    "weight": "2.5-11kg",
+    "interesting_facts": [
+      "Có thể bay ngắn dù cơ thể lớn",
+      "Đực có bộ lông đuôi như quạt",
+      "Rất cảnh giác và khó săn"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "turtle": {
+    "name_vi": "Rùa",
+    "classification": "Bò sát, bộ Testudines",
+    "habitat": "Nước và trên cạn",
+    "diet": "Ăn tạp (thực vật, cá, côn trùng)",
+    "size": "10cm-2m",
+    "weight": "0.1-900kg",
+    "interesting_facts": [
+      "Có mai cứng để bảo vệ",
+      "Một số loài sống đến 200 năm",
+      "Có thể rút đầu vào mai"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "whale": {
+    "name_vi": "Cá voi",
+    "classification": "Động vật có vú, bộ Cetacea",
+    "habitat": "Đại dương",
+    "diet": "Plankton, cá, mực",
+    "size": "1.7-33.5m",
+    "weight": "50kg-173 tấn",
+    "interesting_facts": [
+      "Là động vật lớn nhất từng tồn tại",
+      "Giao tiếp bằng tiếng hát phức tạp",
+      "Có thể lặn sâu hơn 3000m"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "wolf": {
+    "name_vi": "Sói",
+    "classification": "Động vật có vú, họ Canidae",
+    "habitat": "Rừng, tundra, núi",
+    "diet": "Ăn thịt (động vật có vú lớn)",
+    "size": "1.05-1.6m",
+    "weight": "14-65kg",
+    "interesting_facts": [
+      "Sống theo đàn có cấu trúc xã hội phức tạp",
+      "Là tổ tiên của chó nhà",
+      "Giao tiếp bằng tiếng hú và ngôn ngữ cơ thể"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "wombat": {
+    "name_vi": "Wombat",
+    "classification": "Động vật có vú, có túi",
+    "habitat": "Úc, vùng rừng và đồng cỏ",
+    "diet": "Ăn cỏ",
+    "size": "70-120cm",
+    "weight": "20-35kg",
+    "interesting_facts": [
+      "Có phân vuông độc đáo",
+      "Đào hang phức tạp dưới đất",
+      "Chạy với tốc độ lên đến 40 km/h"
+    ],
+    "conservation_status": "Ít lo ngại"
+  },
+  "woodpecker": {
+    "name_vi": "Chim gõ kiến",
+    "classification": "Chim, họ Picidae",
+    "habitat": "Rừng",
+    "diet": "Côn trùng, hạt, mật",
+    "size": "7-60cm",
+    "weight": "7-650g",
+    "interesting_facts": [
+      "Gõ cây 20 lần/giây để tìm côn trùng",
+      "Có lưỡi dài để móc côn trùng",
+      "Đầu được thiết kế để chịu va đập"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  },
+  "zebra": {
+    "name_vi": "Ngựa vằn",
+    "classification": "Động vật có vú, họ Equidae",
+    "habitat": "Đồng cỏ châu Phi",
+    "diet": "Ăn cỏ",
+    "size": "2-2.6m",
+    "weight": "175-385kg",
+    "interesting_facts": [
+      "Mỗi con có hoa văn vằn riêng biệt",
+      "Vằn giúp làm mát và chống côn trùng",
+      "Có khả năng chạy 65 km/h"
+    ],
+    "conservation_status": "Phụ thuộc vào loài"
+  }
+}
