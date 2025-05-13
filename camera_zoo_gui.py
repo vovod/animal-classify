@@ -30,7 +30,9 @@ class ZooAssistantApp:
         self.cap = None
         self.camera_thread = None
         self.camera_running = False
+        self.camera_paused = False  # Thêm trạng thái pause
         self.current_frame = None
+        self.captured_image = None  # Lưu ảnh vừa chụp
 
         # Create GUI
         self.create_widgets()
@@ -108,10 +110,22 @@ class ZooAssistantApp:
                                 padx=20, pady=8)
         predict_btn.pack(side='left', padx=5)
 
+        # Resume camera button (hidden initially)
+        self.resume_btn = tk.Button(camera_frame, text="▶️ Tiếp Tục Camera", command=self.resume_camera,
+                                    font=('Arial', 12, 'bold'), bg='#f39c12', fg='white',
+                                    padx=20, pady=8)
+        self.resume_btn.pack(side='left', padx=5)
+        self.resume_btn.pack_forget()  # Ẩn ban đầu
+
         # Camera/Image display
         self.image_label = tk.Label(left_frame, bg='white', text="Camera/Ảnh sẽ hiển thị ở đây",
                                     font=('Arial', 14), relief='sunken', bd=2)
         self.image_label.pack(pady=10, padx=10, fill='both', expand=True)
+
+        # Status label
+        self.status_label = tk.Label(left_frame, text="", font=(
+            'Arial', 10), bg='white', fg='#7f8c8d')
+        self.status_label.pack(pady=5)
 
         # Result display
         result_frame = tk.Frame(left_frame, bg='white')
@@ -185,7 +199,11 @@ class ZooAssistantApp:
                 return
 
             self.camera_running = True
+            self.camera_paused = False
+            self.captured_image = None
             self.camera_btn.config(text="📴 Đóng Camera", bg='#e74c3c')
+            self.resume_btn.pack_forget()  # Ẩn nút resume
+            self.status_label.config(text="Camera đang hoạt động...")
             self.camera_thread = threading.Thread(target=self.update_camera)
             self.camera_thread.daemon = True
             self.camera_thread.start()
@@ -195,33 +213,52 @@ class ZooAssistantApp:
     def stop_camera(self):
         """Stop camera capture"""
         self.camera_running = False
+        self.camera_paused = False
         if self.cap:
             self.cap.release()
         self.camera_btn.config(text="🎥 Mở Camera", bg='#3498db')
+        self.resume_btn.pack_forget()  # Ẩn nút resume
+        self.status_label.config(text="Camera đã tắt")
+
+    def pause_camera(self):
+        """Pause camera without stopping it"""
+        self.camera_paused = True
+        self.status_label.config(text="Camera tạm dừng - Ảnh đã chụp")
+        self.resume_btn.pack(side='left', padx=5)  # Hiện nút resume
+
+    def resume_camera(self):
+        """Resume camera from pause"""
+        self.camera_paused = False
+        self.captured_image = None
+        self.status_label.config(text="Camera đang hoạt động...")
+        self.resume_btn.pack_forget()  # Ẩn nút resume
 
     def update_camera(self):
         """Update camera feed"""
         while self.camera_running:
-            ret, frame = self.cap.read()
-            if ret:
-                self.current_frame = frame.copy()
-                # Convert frame to display format
-                frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-                frame = cv2.resize(frame, (640, 480))
-                image = Image.fromarray(frame)
-                photo = ImageTk.PhotoImage(image)
+            if not self.camera_paused:  # Chỉ cập nhật khi không pause
+                ret, frame = self.cap.read()
+                if ret:
+                    self.current_frame = frame.copy()
+                    # Convert frame to display format
+                    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                    frame = cv2.resize(frame, (640, 480))
+                    image = Image.fromarray(frame)
+                    photo = ImageTk.PhotoImage(image)
 
-                # Update display
-                self.image_label.config(image=photo, text="")
-                self.image_label.image = photo
+                    # Update display
+                    self.image_label.config(image=photo, text="")
+                    self.image_label.image = photo
 
     def capture_photo(self):
         """Capture photo from camera"""
-        if self.current_frame is not None:
+        if self.current_frame is not None and self.camera_running:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"captured_{timestamp}.jpg"
             cv2.imwrite(filename, self.current_frame)
-            messagebox.showinfo("Thành công", f"Đã chụp ảnh: {filename}")
+
+            # Pause camera và hiển thị ảnh đã chụp
+            self.pause_camera()
 
             # Display captured image
             frame_rgb = cv2.cvtColor(self.current_frame, cv2.COLOR_BGR2RGB)
@@ -231,6 +268,10 @@ class ZooAssistantApp:
             self.image_label.config(image=photo, text="")
             self.image_label.image = photo
             self.current_image = image
+            self.captured_image = image  # Lưu ảnh đã chụp
+
+            messagebox.showinfo(
+                "Thành công", f"Đã chụp ảnh: {filename}\nCamera đã tạm dừng để xem ảnh")
         else:
             messagebox.showwarning(
                 "Cảnh báo", "Chưa có ảnh để chụp. Vui lòng mở camera trước!")
@@ -253,6 +294,12 @@ class ZooAssistantApp:
                 self.image_label.config(image=photo, text="")
                 self.image_label.image = photo
                 self.current_image = image
+
+                # Nếu camera đang hoạt động, pause nó
+                if self.camera_running:
+                    self.pause_camera()
+
+                self.status_label.config(text="Đã tải ảnh từ file")
             except Exception as e:
                 messagebox.showerror("Lỗi", f"Không thể tải ảnh: {str(e)}")
 
@@ -277,6 +324,8 @@ class ZooAssistantApp:
 
                 # Display animal information
                 self.display_animal_info(animal_name)
+
+                self.status_label.config(text=f"Đã nhận diện: {animal_name}")
 
             except Exception as e:
                 messagebox.showerror("Lỗi", f"Lỗi khi nhận diện: {str(e)}")
